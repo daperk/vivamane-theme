@@ -14,7 +14,7 @@ get_header();
 		<main id="main">
 
 			<?php
-			/* Start the Loop */
+			/* Start the Loop */ 
 			while ( have_posts() ) :
 				the_post();
 				get_template_part( 'template-parts/content/content', 'single' );
